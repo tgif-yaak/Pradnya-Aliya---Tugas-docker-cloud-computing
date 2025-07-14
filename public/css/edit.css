@@ -1,0 +1,150 @@
+body {
+  background: linear-gradient(to right, #ede9fe, #f5f3ff);
+  font-family: "Segoe UI", sans-serif;
+  color: #4b006e;
+  padding: 20px;
+  margin: 0;
+}
+
+h1,
+h3 {
+  text-align: center;
+  color: #9333ea;
+  text-shadow: 0 0 10px #e9d5ff;
+  margin-bottom: 10px;
+}
+
+form {
+  background-color: white;
+  padding: 25px;
+  border-radius: 15px;
+  max-width: 600px;
+  margin: 0 auto;
+  box-shadow: 0 0 15px #e9d5ff;
+}
+
+.tanggal-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.tanggal-display label {
+  font-weight: bold;
+  color: #4b006e;
+}
+
+.tanggal-display span {
+  font-size: 16px;
+  color: #4c1d95;
+}
+
+.checkbox-group {
+  margin-bottom: 8px;
+  padding: 3px 0;
+}
+
+label {
+  font-size: 16px;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+  transform: scale(1.2);
+  accent-color: #9333ea;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #d8b4fe;
+  border-radius: 8px;
+  font-family: "Segoe UI", sans-serif;
+  margin-top: 5px;
+}
+
+button[type="submit"] {
+  background-color: #9333ea;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: 0 0 10px #d8b4fe;
+  margin-right: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #7e22ce;
+}
+
+a {
+  text-decoration: none;
+  background-color: #e11d48;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  box-shadow: 0 0 8px #fda4af;
+}
+
+a:hover {
+  background-color: #be123c;
+}
+
+progress {
+  height: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  display: block;
+  margin: 0 auto;
+}
+
+#progressText {
+  font-weight: bold;
+  display: block;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.button-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.button-row button,
+.button-row a {
+  font-size: 14px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px #d8b4fe;
+}
+
+.button-row a {
+  background-color: #e11d48;
+  color: white;
+  text-decoration: none;
+  border: none;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.button-row a:hover {
+  background-color: #be123c;
+}
+
+.button-row button {
+  background-color: #9333ea;
+  color: white;
+  border: none;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.button-row button:hover {
+  background-color: #7e22ce;
+}
